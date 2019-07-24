@@ -1,0 +1,134 @@
+/******************************
+General
+*******************************/
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+#wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  font-family: "Nunito Sans", sans-serif;
+  text-decoration: none;
+  color: #FECC55;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/******************************
+Heading
+*******************************/
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Crimson Text", serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8 em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/******************************
+Navigation
+*******************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+/******************************
+Footer
+*******************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+/******************************
+Page: Portfolio
+*******************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #6F95A8;
+  color: #FECC55;
+}
+
+/*#gallery p {
+  margin-top: -8px;
+  background-color: #6F95A8;
+  color: #FECC55;
+}
+
+*/
+
+/******************************
+Colors
+*******************************/
+
+
+
+/* site body */
+body {
+  background-color: #287128;
+}
+
+
+/* pastel blue header */
+header {
+  background-color: #2B8DBF;
+  border-color: #FEC60C;
+}
+
+
+/* nav background */
+nav {
+  background: #136690;
+}
+
+/*nav links*/
+nav a, nav a:visited {
+  color:#FECC55;
+}
+
+nav a.selected, nav a:hover {
+  color: #C16E25;
+}
+
+footer {
+color: green;
+background-color: #D7AC48;
+}
