@@ -23,6 +23,10 @@ img {
   object-fit: contain;
 }
 
+h3 {
+  margin: 0 0 1em 0;
+}
+
 
 /******************************
 Heading
@@ -69,6 +73,34 @@ h2 {
 
 
 
+/*******************************
+Page: About
+********************************/
+
+#about-Bee {
+  max-width: 256px;
+  max-height: 256px;
+  display: block;
+  border-radius: 75%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-photo {
+  max-width: 25%;
+  max-height: 25%;
+  display: block;
+  border-right: 8px solid #D7AC48;
+  border-bottom: 8px solid #D7AC48;
+}
+
+.about-section {
+  font-family: "Crimson Text", serif;
+  font-size: 1.25em;
+  border: 8px solid #D7AC48;
+}
+
 /******************************
 Navigation
 *******************************/
@@ -106,7 +138,7 @@ footer {
 #social-icon {
   width: 125px;
   height: 125px;
-  margin: 0 5px;
+  margin: -50px 0 0 0px;
 }
 
 /******************************
