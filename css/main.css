@@ -9,9 +9,6 @@ body {
 
 }
 
-#container {
-  position: relative;
-}
 #wrapper {
   max-width: 1024px;
   margin: 0 0 175px 0;
