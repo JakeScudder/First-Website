@@ -72,7 +72,7 @@ header {
 
 h1 {
   font-family: "Crimson Text", serif;
-  margin: 15px 0;
+  margin: 20px 0;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
@@ -102,6 +102,10 @@ h2 {
 /*******************************
 Page: About
 ********************************/
+
+#aboutHeader {
+  margin-bottom: 10px;
+}
 
 #about-Bee {
   max-width: 256px;
@@ -133,6 +137,10 @@ Page: About
 /*******************************
 Page: Contact
 ********************************/
+#contactHeader {
+  margin-bottom: 10px;
+}
+
 .contact-info {
   list-style: none;
   padding: 10px;
