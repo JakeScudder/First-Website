@@ -1,0 +1,25 @@
+
+/******************************
+Responsive
+*******************************/
+
+@media screen and (min-width: 750px) {
+  /******************************
+  Two Column Layout
+  *******************************/
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+}

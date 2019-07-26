@@ -1,13 +1,21 @@
 /******************************
 General
 *******************************/
+
 body {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+#container {
+  position: relative;
 }
 #wrapper {
   max-width: 1024px;
-  margin: 0 auto;
-  padding: 0 5%;
+  margin: 0 0 175px 0;
+  padding: 0 0 175px 0;
 }
 
 a {
@@ -26,6 +34,27 @@ img {
 h3 {
   margin: 0 0 1em 0;
 }
+
+
+/******************************
+Footer
+*******************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  height: 175px;
+  width: 100%;
+  position: static;
+  bottom: 0;
+}
+
+#social-icon {
+  width: 125px;
+  height: 125px;
+  margin: 0 0 0 0px;
+}
+
 
 
 /******************************
@@ -165,22 +194,6 @@ nav a {
 }
 
 /******************************
-Footer
-*******************************/
-
-footer {
-  font-size: 0.75em;
-  text-align: center;
-  padding-top: 50px;
-}
-
-#social-icon {
-  width: 125px;
-  height: 125px;
-  margin: -50px 0 0 0px;
-}
-
-/******************************
 Page: Portfolio
 *******************************/
 
@@ -224,7 +237,6 @@ header {
   border-color: #FEC60C;
 }
 
-
 /* nav background */
 nav {
   background: #136690;
@@ -242,4 +254,5 @@ nav a.selected, nav a:hover {
 footer {
 color: green;
 background-color: #D7AC48;
+overflow: auto;
 }
